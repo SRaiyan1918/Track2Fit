@@ -37,6 +37,10 @@ export interface ExerciseLog {
     targetReps: number;
     completedSets: number;
     completed: boolean;
+    name?: string;
+    unit?: string;
+    isCustom?: boolean;
+    deleted?: boolean;
   };
 }
 
@@ -84,7 +88,7 @@ export interface Badge {
 
 // Weight History Entry
 export interface WeightEntry {
-  id?: string;
+  id: string;
   weight: number;
   date: string;
   createdAt?: Date;

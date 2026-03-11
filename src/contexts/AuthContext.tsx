@@ -1,6 +1,5 @@
 import { createContext, useContext, useState, useEffect, type ReactNode } from 'react';  // 👈 React import add kiya
 import { 
-  auth, 
   onAuthChange, 
   signInWithGoogle, 
   logoutUser,

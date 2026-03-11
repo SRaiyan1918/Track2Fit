@@ -160,7 +160,7 @@ export function ProgressTracker() {
       {
         label: 'Water Intake (ml)',
         data: hydrationValues,
-        backgroundColor: hydrationValues.map((v, i) =>
+        backgroundColor: hydrationValues.map((_v, i) =>
           i === todayDayIndex
             ? 'rgba(59, 130, 246, 0.8)'
             : 'rgba(200, 200, 200, 0.4)'
